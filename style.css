@@ -1,0 +1,397 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* html{
+  font-size: 10px;
+} */
+div.Nav_List {
+  /* background-color: rgba(212, 179, 11, 0.477); */
+  background: rgb(222, 254, 86);
+  background: linear-gradient(
+    194deg,
+    rgba(222, 254, 86, 1) 5%,
+    rgba(226, 243, 76, 1) 28%,
+    rgba(239, 203, 39, 1) 51%,
+    rgba(242, 193, 29, 0.785049053801208) 81%,
+    rgba(240, 180, 0, 1) 100%
+  );
+  height: 5em;
+}
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+}
+div.Nav_List ul li {
+  list-style: none;
+  padding: 1.4em;
+}
+div.Nav_List ul li a {
+  padding: 1.5em;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+}
+div.Nav_List ul li a:hover {
+  color: rgba(0, 0, 0, 0.812);
+  text-shadow: 2px 2px 10px white;
+  background-color: rgba(0, 0, 255, 0.108);
+}
+.Logo {
+  width: 100%;
+  height: 11em;
+  display: block;
+  background-color: black;
+}
+
+div.container {
+  background-image: url(https://images.unsplash.com/photo-1605794978836-7dccf155bea2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1971&q=80);
+  color: white;
+}
+div.about {
+  width: 50%;
+  height: 23%;
+  /* border: 1px solid red; */
+  display: flex;
+  padding-left: 23em;
+  padding-top: 5em;
+  justify-content: space-between;
+}
+#Intro {
+  font-family: "DynaPuff", cursive;
+}
+.AboutShanan,
+.study {
+  margin-left: 1em;
+  font-family: "DynaPuff", cursive;
+}
+.Btn-Contact {
+  height: 2em;
+  width: 8em;
+  background-color: blue;
+  border-radius: 2em;
+  font-size: 1.1em;
+  margin: 0.3em;
+}
+.Btn-Contact:hover {
+  background-color: white;
+  color: blue;
+  box-shadow: 1px 1px 2px white;
+}
+div.profilepic {
+  width: 50%;
+  height: 23%;
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+}
+.MainPic {
+  height: 30em;
+  margin: 0.9em 0px 5em 1em;
+  transition: 0.5s all ease-in;
+}
+.MainPic:hover {
+  transform: scale(1.01);
+  box-shadow: 3px 3px 3px rgb(240, 237, 237);
+  opacity: 0.8;
+}
+a.Socials {
+  text-decoration: none;
+  color: white;
+}
+#End {
+  text-align: center;
+  font-size: 2em;
+  font-family: serif;
+  font-style: italic;
+  padding-bottom: 2em;
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .LogoContainer {
+    width: 229px;
+    height: 4em;
+  }
+
+  .Logo {
+    height: 4em;
+    width: 100%;
+  }
+
+  div.Nav_List {
+    font-size: 0.2em;
+    width: 229px;
+  }
+  div.Nav_List ul li {
+    padding: 1em;
+}
+  .container {
+    width: 229px;
+  }
+
+  div.about {
+    padding-left: 0em;
+    padding-top: 2em;
+  }
+  #Intro {
+    font-size: 7px;
+    padding-left: 20px;
+  }
+  p.AboutShanan {
+    font-size: 4px;
+    margin-left: 35px;
+  }
+  p.study {
+    font-size: 4px;
+    margin-left: 35px;
+  }
+  .Socials {
+    padding-left: 7px;
+    height: 0.5em;
+    width: 3em;
+    border-radius: 3em;
+    font-size: 0.4em;
+    margin: 0.3em;
+  }
+  .MainPic {
+    height: 8em;
+    margin: 0.9em 0px 0em 2em;
+    transition: 0.5s all ease-in;
+  }
+  #End{
+    text-align: center;
+    font-size: 0.5em;
+    font-family: serif;
+    font-style: italic;
+    /* padding-bottom: 38em; */
+    padding-top: 26px;
+  }
+  .copy{
+    font-size: 0.5em;
+    font-family: serif;
+    font-style: italic;
+    padding-bottom: 3em;
+    padding-top: 26px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+
+  .LogoContainer {
+    width: 448px;
+    height: 4em;
+  }
+
+  .Logo {
+    height: 4em;
+    width: 100%;
+  }
+
+  div.Nav_List {
+    font-size: 0.3em;
+    width: 448px;
+  }
+  div.Nav_List ul li {
+    padding: 1em;
+}
+  .container {
+    width: 448px;
+  }
+
+  div.about {
+    padding-left: 5em;
+    padding-top: 2em;
+  }
+  #Intro {
+    font-size: 7px;
+    padding-left: 20px;
+  }
+  p.AboutShanan {
+    font-size: 6px;
+    margin-left: 38px;
+  }
+  p.study {
+    font-size: 6px;
+    margin-left: 38px;
+  }
+  .Socials {
+    padding-left: 7px;
+    height: 0.5em;
+    width: 3em;
+    border-radius: 3em;
+    font-size: 0.4em;
+    margin: 0.3em;
+  }
+  .MainPic {
+    height: 10em;
+    margin: 0.9em 0px 0em 2em;
+    transition: 0.5s all ease-in;
+}
+.Btn-Contact{ 
+  margin-left: -27px;
+  margin-right: 15px;
+}
+  #End{
+    text-align: center;
+    font-size: 0.5em;
+    font-family: serif;
+    font-style: italic;
+    /* padding-bottom: 38em; */
+    padding-top: 26px;
+  }
+  .copy{
+    font-size: 0.5em;
+    font-family: serif;
+    font-style: italic;
+    padding-bottom: 3em;
+    padding-top: 26px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+
+  .LogoContainer {
+    width: 43.39em;
+    height: 6em;
+  }
+
+  .Logo {
+    height: 6em;
+    width: 100%;
+  }
+
+  div.Nav_List {
+    font-size: 0.5em;
+    width: 86.8em;
+  }
+  div.Nav_List ul li {
+    padding: 1em;
+}
+  .container {
+    width: 43.4em;
+  }
+
+  div.about {
+    padding-left: 5em;
+    padding-top: 2em;
+    width: 75%;
+  }
+  #Intro {
+    font-size: 1em;
+    padding-left: 30px;
+  }
+  p.AboutShanan {
+    font-size: 0.5em;
+    margin-left: 50px;
+  }
+  p.study {
+    font-size: 0.5em;
+    margin-left: 50px;
+  }
+  .Socials {
+    padding-left: 7em;
+    height: 0.5em;
+    width: 3em;
+    border-radius: 3em;
+    font-size: 0.4em;
+    margin: 0em;
+  }
+  .MainPic {
+    height: 15em;
+    margin: 1em 0px 0em 2em;
+    transition: 0.5s all ease-in;
+}
+.Btn-Contact{ 
+  margin-left: -27px;
+  margin-right: 15px;
+}
+  #End{
+    text-align: center;
+    font-size: 1em;
+    font-family: serif;
+    font-style: italic;
+    /* padding-bottom: 38em; */
+    padding-top: 26px;
+}
+  .copy{
+    font-size: 0.5em;
+    font-family: serif;
+    font-style: italic;
+    padding-bottom: 3em;
+    padding-top: 26px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+  .LogoContainer {
+    width: 64.5em;
+    height: 9em;
+  }
+
+  .Logo {
+    height: 9em;
+    width: 100%;
+  }
+
+  div.Nav_List {
+    font-size: 0.7em;
+    width: 92.1em;
+  }
+  div.Nav_List ul li {
+    padding: 1em;
+}
+  .container {
+    width: 64.4em;
+  }
+
+  div.about {
+    padding-left: 5em;
+    padding-top: 2em;
+    width: 75%;
+  }
+  #Intro {
+    font-size: 1.5em;
+    padding-left: 70px;
+  }
+  p.AboutShanan {
+    font-size: 0.8em;
+    margin-left: 110px;
+  }
+  p.study {
+    font-size: 0.8em;
+    margin-left: 110px;
+  }
+  .Socials {
+    padding-left: 7em;
+    height: 0.5em;
+    width: 4em;
+    border-radius: 3em;
+    font-size: 0.7em;
+    margin: 0em;
+  }
+  .MainPic {
+    height: 20em;
+    margin: 1em 0px 0em 3em;
+    transition: 0.5s all ease-in;
+}
+.Btn-Contact{ 
+  margin-left: 55px;
+  margin-right: -115px;
+}
+  #End{
+    text-align: center;
+    font-size: 1.3em;
+    font-family: serif;
+    font-style: italic;
+    padding-top: 3em
+}
+  .copy{
+    font-size: 1em;
+    font-family: serif;
+    font-style: italic;
+    padding-bottom: 3em;
+    padding-top: 26px;
+    padding-left: 0.4em;
+  }
+}
+}

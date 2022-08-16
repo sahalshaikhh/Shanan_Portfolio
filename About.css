@@ -1,0 +1,542 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.Btn_home {
+  border-radius: 1em;
+  background-color: transparent;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding: 0.7em;
+  margin: 1em 0px 1em 100em;
+}
+.Btn_home:hover {
+  background-color: black;
+  color: white;
+}
+div.container {
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.RoundImg {
+  padding-top: 1em;
+  border-radius: 50%;
+  height: 15em;
+}
+h1.toDoThings {
+  padding-top: 0.5em;
+  padding-left: 0em;
+  padding-right: 10em;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: "DynaPuff", cursive;
+}
+h1.Riding{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: "DynaPuff", cursive;
+  padding-left: 3em;
+}
+.img_Riding{
+  display: flex;
+  padding: 1em 0em 0em 5em;
+  border-radius: 50%;
+}
+.para1{
+  text-align: center;
+  padding-top: 6em;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  font-size: 1.4em;
+  padding-left: 3em;
+}
+.para2{
+  padding-top: 6em;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  font-size: 1.4em;
+  padding-left: 10em;;
+}
+.JudoHead{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: "DynaPuff", cursive;
+  padding: 2em 0px 0px 3em;
+  padding-left: 30em;
+}
+.img_Judo{
+  height: 18em;
+  margin-top: -4em;
+  margin-left: 30em;
+  border-radius: 0em 7em 4em 9em;
+}
+.img3{
+  display: flex;
+}
+.Editing_Img{
+  border-radius: 9em 0em 9em 0em;
+  padding-left: 5em;
+  height: 25em;
+  display: flex;
+}
+.para3{
+  padding: 4em 0em 0em 4em;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: "DynaPuff", cursive;
+}
+.Socials{
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: "DynaPuff", cursive;
+  padding: 0em 5em 0em 5em;
+}
+.Socials:hover{
+  color: red;
+}
+.Slogan{
+  color: black;
+  text-shadow: 2px 2px 2px white;
+  font-family: "DynaPuff", cursive;
+  text-align: center;
+  /* letter-spacing: 1em; */
+  word-spacing: 2em;
+  padding: 4em;
+  font-size: 1.4em;
+}
+@media screen and (max-width : 480px) and (min-width: 320px) {
+  .Btn_home {
+    border-radius: 1em;
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 0.7em;
+    margin: 1em 0px 1em 90em;
+  }
+  .Btn_home:hover {
+    background-color: black;
+    color: white;
+  }
+  div.container {
+    background-color: #a9c9ff;
+    background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 86.79em;
+  }
+  .RoundImg {
+    padding-top: 1em;
+    border-radius: 50%;
+    height: 15em;
+  }
+  h1.toDoThings {
+    padding-top: 0.5em;
+    padding-left: 0em;
+    padding-right: 10em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+  }
+  h1.Riding{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding-left: 3em;
+  }
+  .img_Riding{
+    display: flex;
+    padding: 1em 0em 0em 5em;
+    border-radius: 50%;
+  }
+  .para1{
+    text-align: center;
+    padding-top: 6em;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 3em;
+  }
+  .para2{
+    padding-top: 6em;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 10em;;
+  }
+  .JudoHead{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding: 2em 0px 0px 3em;
+    padding-left: 30em;
+  }
+  .img_Judo{
+    height: 18em;
+    margin-top: -4em;
+    margin-left: 30em;
+    border-radius: 0em 7em 4em 9em;
+  }
+  .img3{
+    display: flex;
+  }
+  .Editing_Img{
+    border-radius: 9em 0em 9em 0em;
+    padding-left: 5em;
+    height: 25em;
+    display: flex;
+  }
+  .para3{
+    padding: 4em 0em 0em 4em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+  }
+  .Socials{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding: 0em 5em 0em 5em;
+  }
+  .Socials:hover{
+    color: red;
+  }
+  .Slogan{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-family: "DynaPuff", cursive;
+    text-align: center;
+    /* letter-spacing: 1em; */
+    word-spacing: 2em;
+    padding: 4em;
+    font-size: 1.4em;
+  }
+}
+@media screen and (max-width : 768px) and (min-width: 480px) {
+  .Btn_home {
+    border-radius: 1em;
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 0.7em;
+    margin: 1em 0px 1em 90em;
+  }
+  .Btn_home:hover {
+    background-color: black;
+    color: white;
+  }
+  div.container {
+    background-color: #a9c9ff;
+    background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 86.79em;
+  }
+  .RoundImg {
+    padding-top: 1em;
+    border-radius: 50%;
+    height: 15em;
+  }
+  h1.toDoThings {
+    padding-top: 0.5em;
+    padding-left: 0em;
+    padding-right: 10em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+  }
+  h1.Riding{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding-left: 3em;
+  }
+  .img_Riding{
+    display: flex;
+    padding: 1em 0em 0em 5em;
+    border-radius: 50%;
+  }
+  .para1{
+    text-align: center;
+    padding-top: 6em;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 3em;
+  }
+  .para2{
+    padding-top: 6em;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 10em;;
+  }
+  .JudoHead{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding: 2em 0px 0px 3em;
+    padding-left: 30em;
+  }
+  .img_Judo{
+    height: 18em;
+    margin-top: -4em;
+    margin-left: 30em;
+    border-radius: 0em 7em 4em 9em;
+  }
+  .img3{
+    display: flex;
+  }
+  .Editing_Img{
+    border-radius: 9em 0em 9em 0em;
+    padding-left: 5em;
+    height: 25em;
+    display: flex;
+  }
+  .para3{
+    padding: 4em 0em 0em 4em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+  }
+  .Socials{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding: 0em 5em 0em 5em;
+  }
+  .Socials:hover{
+    color: red;
+  }
+  .Slogan{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-family: "DynaPuff", cursive;
+    text-align: center;
+    /* letter-spacing: 1em; */
+    word-spacing: 2em;
+    padding: 4em;
+    font-size: 1.4em;
+  }
+}
+@media screen and (max-width : 1024px) and (min-width: 768px) {
+  .Btn_home {
+    border-radius: 1em;
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 0.7em;
+    margin: 1em 0px 1em 90em;
+  }
+  .Btn_home:hover {
+    background-color: black;
+    color: white;
+  }
+  div.container {
+    background-color: #a9c9ff;
+    background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 86.79em;
+  }
+  .RoundImg {
+    padding-top: 1em;
+    border-radius: 50%;
+    height: 15em;
+  }
+  h1.toDoThings {
+    padding-top: 0.5em;
+    padding-left: 0em;
+    padding-right: 10em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+  }
+  h1.Riding{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding-left: 3em;
+  }
+  .img_Riding{
+    display: flex;
+    padding: 1em 0em 0em 5em;
+    border-radius: 50%;
+  }
+  .para1{
+    text-align: center;
+    padding-top: 6em;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 3em;
+  }
+  .para2{
+    padding-top: 6em;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 10em;;
+  }
+  .JudoHead{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding: 2em 0px 0px 3em;
+    padding-left: 30em;
+  }
+  .img_Judo{
+    height: 18em;
+    margin-top: -4em;
+    margin-left: 30em;
+    border-radius: 0em 7em 4em 9em;
+  }
+  .img3{
+    display: flex;
+  }
+  .Editing_Img{
+    border-radius: 9em 0em 9em 0em;
+    padding-left: 5em;
+    height: 25em;
+    display: flex;
+  }
+  .para3{
+    padding: 4em 0em 0em 4em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+  }
+  .Socials{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding: 0em 5em 0em 5em;
+  }
+  .Socials:hover{
+    color: red;
+  }
+  .Slogan{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-family: "DynaPuff", cursive;
+    text-align: center;
+    /* letter-spacing: 1em; */
+    word-spacing: 2em;
+    padding: 4em;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width : 1300px) and (min-width: 1024px) {
+  .Btn_home {
+    border-radius: 1em;
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 0.7em;
+    margin: 1em 0px 1em 90em;
+  }
+  .Btn_home:hover {
+    background-color: black;
+    color: white;
+  }
+  div.container {
+    background-color: #a9c9ff;
+    background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 86.79em;
+  }
+  .RoundImg {
+    padding-top: 1em;
+    border-radius: 50%;
+    height: 15em;
+  }
+  h1.toDoThings {
+    padding-top: 0.5em;
+    padding-left: 0em;
+    padding-right: 10em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+  }
+  h1.Riding{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding-left: 3em;
+  }
+  .img_Riding{
+    display: flex;
+    padding: 1em 0em 0em 5em;
+    border-radius: 50%;
+  }
+  .para1{
+    text-align: center;
+    padding-top: 6em;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 3em;
+  }
+  .para2{
+    padding-top: 6em;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 10em;;
+  }
+  .JudoHead{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding: 2em 0px 0px 3em;
+    padding-left: 30em;
+  }
+  .img_Judo{
+    height: 18em;
+    margin-top: -4em;
+    margin-left: 30em;
+    border-radius: 0em 7em 4em 9em;
+  }
+  .img3{
+    display: flex;
+  }
+  .Editing_Img{
+    border-radius: 9em 0em 9em 0em;
+    padding-left: 5em;
+    height: 25em;
+    display: flex;
+  }
+  .para3{
+    padding: 4em 0em 0em 4em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+  }
+  .Socials{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "DynaPuff", cursive;
+    padding: 0em 5em 0em 5em;
+  }
+  .Socials:hover{
+    color: red;
+  }
+  .Slogan{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-family: "DynaPuff", cursive;
+    text-align: center;
+    /* letter-spacing: 1em; */
+    word-spacing: 2em;
+    padding: 4em;
+    font-size: 1.4em;
+  }
+}
